@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MBA IGTI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<ul class="nav">
+    <li class="nav-item">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" onclick="toggle(this)" onblur="toggle(this)">
+                Fundamentos em Full Stack
+            </button>
+            <div class="dropdown-menu" onmouseover="keepFocus(this)" onmouseout="loseFocus(this)">
+                <a class="dropdown-item" href="ffs/crud/crud.html">CRUD</a>
+                <a class="dropdown-item" href="ffs/fcm/fcm.html">FCM</a>
+                <a class="dropdown-item" href="#">...</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">...Outra coisa separada</a>
+            </div>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+</nav>
+<img src="assets/img/fullstack.svg" class="fullstack-img"></img>
+
+</body>
+<script src="assets/js/main.js"></script>
+</html>
