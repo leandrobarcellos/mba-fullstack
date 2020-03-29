@@ -1,0 +1,29 @@
+{
+  "name": "mba-fulstack",
+  "version": "1.0.0",
+  "description": "Projeto referente aos exercícios práticos sugeridos durante o MBA de Desenvolvimento FullStack - IGTI",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrobarcellos/mba-fullstack.git"
+  },
+  "keywords": [
+    "fullstack",
+    "igti",
+    "mba",
+    "desenvolvimento",
+    "javascript"
+  ],
+  "author": "Leandro Barcellos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leandrobarcellos/mba-fullstack/issues"
+  },
+  "homepage": "https://github.com/leandrobarcellos/mba-fullstack#readme"
+}
