@@ -59,11 +59,11 @@ function activateInputIdade() {
                 if (idade < 20) {
                     texto = " tem a juventude à sua disposição!";
                 } else if (idade < 40) {
-                    texto = " bora manter porque temos muito a perder!";
+                    texto = " bora manter a atividade porque temos muito a perder!";
                 } else if (idade < 60) {
-                    texto = " chegamos num ponto onde não temos mais escolha!";
+                    texto = " chegamos num ponto onde não temos mais escolha! Pratique atividade física!";
                 } else if (idade < 80) {
-                    texto = ", ainda dá tempo de tentar esticar um pouco a qualidade de vida!";
+                    texto = " ainda dá tempo de tentar esticar um pouco a qualidade de vida, vamos nos exercitar!";
                 } else if (idade < 100) {
                     texto = " espero que tenha feito algo por você nesse tempo!";
                 } else if (idade < 150) {
